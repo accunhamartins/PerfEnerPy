@@ -1,0 +1,9 @@
+,src,dst,op,args,start_time,end_time,elapsed_time,op_list,code
+0,,artifact_0,generate,,9372511.103260314,9372511.409033123,0.30577280931174755,,
+1,"('artifact_2',)",artifact_3,,,9372511.595200788,9372511.595677268,0.00047647953033447266,sample,self.sources[0].table.sample(frac=0.37)
+2,"('artifact_3',)",artifact_4,,,9372511.603546731,9372511.604250891,0.0007041599601507187,project,self.sources[0].table[['CYayh__word']]
+3,"('artifact_4',)",artifact_5,,,9372511.608274601,9372511.608531056,0.00025645457208156586,sample,self.sources[0].table.sample(frac=0.39)
+4,"('artifact_5',)",artifact_6,,,9372511.61243292,9372511.612690464,0.00025754421949386597,sample,self.sources[0].table.sample(frac=0.82)
+5,"('artifact_6',)",artifact_7,,,9372511.616580112,9372511.61684355,0.0002634376287460327,sample,self.sources[0].table.sample(frac=0.82)
+6,"('artifact_7',)",artifact_8,,,9372511.620734625,9372511.620975092,0.00024046748876571655,sample,self.sources[0].table.sample(frac=0.79)
+7,"('artifact_8',)",artifact_9,,,9372511.624870565,9372511.62512212,0.00025155581533908844,sample,self.sources[0].table.sample(frac=0.55)

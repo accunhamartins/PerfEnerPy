@@ -1,0 +1,9 @@
+{
+    "type": "micro",
+    "operations": ["mean", "sum", "unique_rows", "groupby", "multiple_groupby"],
+    "frameworks": ["Pandas", "Polars", "Modin_Dask", "Modin_Ray"],
+    "framework_legend" : ["Pandas", "Polars", "Modin_Dask", "Modin_Ray"],
+    "files": ["micro_1Y","micro_2Y"],
+    "datasets":["yellow_tripdata_2019_01-2019_2", "yellow_tripdata_2019_01-2019_4"],
+    "series": {"yellow_tripdata_2019_01-2019_2":"small","yellow_tripdata_2019_01-2019_4":"medium"}
+}

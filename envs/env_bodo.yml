@@ -1,0 +1,9 @@
+name: Bodo
+channels:
+  - conda-forge
+  - defaults
+  - bodo.ai
+dependencies:
+  - python=3.9
+  - bodo
+  - numpy=1.20

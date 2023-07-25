@@ -1,0 +1,62 @@
+{
+  "artifact_0": {
+    "qoSZ9__password": "password",
+    "kAelf__ean8": "ean8",
+    "cZOkK__ascii_free_email": "ascii_free_email",
+    "ug2kr__state_abbr": "state_abbr",
+    "6rJfW__name_male": "name_male",
+    "cz6V6__random_number": "random_number",
+    "JVais__randomize_nb_elements": "randomize_nb_elements",
+    "BqsUV__pyint": "pyint",
+    "zLDus__random_number": "random_number",
+    "DaNU1__random_number": "random_number",
+    "CdRCn__randomize_nb_elements": "randomize_nb_elements",
+    "n5Nfg__random_digit": "random_digit",
+    "kL5I6__random_int": "random_int",
+    "FzV7m__randomize_nb_elements": "randomize_nb_elements",
+    "ChiXf__random_int": "random_int",
+    "L9ulO__random_number": "random_number",
+    "vOaTG__random_digit": "random_digit",
+    "iP1R4__user_agent": "user_agent",
+    "ElN1G__numerify": "numerify",
+    "Q9Gry__numerify": "numerify"
+  },
+  "artifact_1": {
+    "uIS6v__unix_partition": "unix_partition",
+    "LmFN7__suffix": "suffix",
+    "SsBcv__year": "year",
+    "cZOkK__ascii_free_email": "ascii_free_email"
+  },
+  "artifact_2": {
+    "xXoSf__free_email": "free_email",
+    "9kBJ5__first_name": "first_name",
+    "tk0gR__pyint": "pyint",
+    "CYayh__word": "word",
+    "cZOkK__ascii_free_email": "ascii_free_email"
+  },
+  "artifact_3": {
+    "xXoSf__free_email": "free_email",
+    "9kBJ5__first_name": "first_name",
+    "tk0gR__pyint": "pyint",
+    "CYayh__word": "word",
+    "cZOkK__ascii_free_email": "ascii_free_email"
+  },
+  "artifact_4": {
+    "CYayh__word": "word"
+  },
+  "artifact_5": {
+    "CYayh__word": "word"
+  },
+  "artifact_6": {
+    "CYayh__word": "word"
+  },
+  "artifact_7": {
+    "CYayh__word": "word"
+  },
+  "artifact_8": {
+    "CYayh__word": "word"
+  },
+  "artifact_9": {
+    "CYayh__word": "word"
+  }
+}

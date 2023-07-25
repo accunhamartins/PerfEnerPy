@@ -1,0 +1,55 @@
+{
+    "type": "macro",
+    "dataset": "yellow_tripdata_2019_01-2020_12",
+    "runs": 4,
+    "operations":
+        [{
+        "op":"groupby",
+        "artifact": "source",
+        "label": "artifact_1",
+        "args":{
+            "group_columns": [
+              "passenger_count"
+            ],
+            "agg_column": "tip_amount",
+            "agg_function": "mean"
+          }
+        },
+        {
+          "op":"groupby",
+          "artifact": "source",
+          "label": "artifact_2",
+          "args":{
+              "group_columns": [
+                "payment_type", "passenger_count"
+              ],
+              "agg_column": "tip_amount",
+              "agg_function": "mean"
+            }
+          },
+          {
+            "op": "mean",
+            "artifact": "source",
+            "label": "artifact_3",
+            "column": "tip_amount"
+          },
+          {
+            "op": "sum",
+            "artifact": "source",
+            "label": "artifact_4",
+            "column": "total_amount"
+          },
+          {
+            "op":"groupby",
+            "artifact": "source",
+            "label": "artifact_5",
+            "args":{
+                "group_columns": [
+                  "VendorID"
+                ],
+                "agg_column": "passenger_count",
+                "agg_function": "sum"
+              }
+            }
+    ]
+  }

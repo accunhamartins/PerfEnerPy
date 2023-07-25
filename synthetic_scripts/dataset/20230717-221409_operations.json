@@ -1,0 +1,105 @@
+{
+  "name": "20230717-221409",
+  "operation_list": [
+    {
+      "sources": [
+        "artifact_2"
+      ],
+      "new_label": "artifact_3",
+      "op_list": [
+        {
+          "op": "sample",
+          "args": {
+            "frac": 0.37
+          }
+        }
+      ]
+    },
+    {
+      "sources": [
+        "artifact_3"
+      ],
+      "new_label": "artifact_4",
+      "op_list": [
+        {
+          "op": "project",
+          "args": {
+            "output_cols": [
+              "CYayh__word"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "sources": [
+        "artifact_4"
+      ],
+      "new_label": "artifact_5",
+      "op_list": [
+        {
+          "op": "sample",
+          "args": {
+            "frac": 0.39
+          }
+        }
+      ]
+    },
+    {
+      "sources": [
+        "artifact_5"
+      ],
+      "new_label": "artifact_6",
+      "op_list": [
+        {
+          "op": "sample",
+          "args": {
+            "frac": 0.82
+          }
+        }
+      ]
+    },
+    {
+      "sources": [
+        "artifact_6"
+      ],
+      "new_label": "artifact_7",
+      "op_list": [
+        {
+          "op": "sample",
+          "args": {
+            "frac": 0.82
+          }
+        }
+      ]
+    },
+    {
+      "sources": [
+        "artifact_7"
+      ],
+      "new_label": "artifact_8",
+      "op_list": [
+        {
+          "op": "sample",
+          "args": {
+            "frac": 0.79
+          }
+        }
+      ]
+    },
+    {
+      "sources": [
+        "artifact_8"
+      ],
+      "new_label": "artifact_9",
+      "op_list": [
+        {
+          "op": "sample",
+          "args": {
+            "frac": 0.55
+          }
+        }
+      ]
+    }
+  ]
+}

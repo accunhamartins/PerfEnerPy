@@ -1,0 +1,7 @@
+faker
+pandas
+networkx
+pytest
+pytest-cov
+SQLAlchemy<2.0.0
+modin[all]

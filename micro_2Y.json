@@ -1,0 +1,6 @@
+{
+    "type": "micro",
+    "dataset": "yellow_tripdata_2019_01-2020_12",
+    "runs": 4,
+    "operations": ["mean", "sum", "unique_rows", "groupby", "multiple_groupby", "sort"]
+}
